@@ -27,7 +27,6 @@ expander.write('問い合わせ内容')
 
 text = st.text_input('あなたの趣味を教えてください')
 condition = st.slider('あなたの調子は',0,100,50)
-
 '私のシュミは',text
 '私の調子は', condition
 
@@ -42,7 +41,6 @@ condition = st.slider('あなたの調子は',0,100,50)
 option = st.selectbox(
     'あなたが好きな数字',
     list(range(1,11))
-)
 'あなたの好きな数字は',option,'です'
 
 #チェックボックスにチェックを入れると画像表示
@@ -51,7 +49,7 @@ if st.checkbox('Show Image'):
     st.image(img,caption='スターウォーズ',use_column_width=True)
 
 #マッピング姫路城#割り算した小さい値に姫路城の緯度経度を基にマッピングする
- df = pd.DataFrame(
+df = pd.DataFrame(
     np.random.rand(100,2)/[50,50] + [34.83,134.69],
     columns=['lat','lon']#緯度 #経度
 )
