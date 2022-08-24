@@ -38,7 +38,7 @@ condition = st.slider('あなたの調子は',0,100,50)
 #condition = st.slider('あなたの調子は',0,100,50)
 #'私の調子は', condition
 
-セレクトボックスの中から数値を選んで文字に代入
+#セレクトボックスの中から数値を選んで文字に代入
 option = st.selectbox(
     'あなたが好きな数字',
     list(range(1,11))
