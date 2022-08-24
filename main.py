@@ -50,7 +50,7 @@ if st.checkbox('Show Image'):
     img = Image.open('starwars.png')
     st.image(img,caption='スターウォーズ',use_column_width=True)
 
-マッピング姫路城#割り算した小さい値に姫路城の緯度経度を基にマッピングする
+#マッピング姫路城#割り算した小さい値に姫路城の緯度経度を基にマッピングする
  df = pd.DataFrame(
     np.random.rand(100,2)/[50,50] + [34.83,134.69],
     columns=['lat','lon']#緯度 #経度
