@@ -1,0 +1,14 @@
+streamlit
+仮想環境
+env\Scripts\Activate.ps1
+
+API reforence
+=>Display charts
+#チャートを表示させるコードが書いてある
+
+#shift+alt+Aキーでコメントアウト
+
+API reference
+=>Display interactive widget
+#インタラクティブなウィジェット
+#セレクトボックス、ラジオボタン、数値スライダー
